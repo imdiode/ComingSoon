@@ -71,9 +71,15 @@ div {
 }
 
 @media screen and (max-width: 600px) {
+    .top {
+        height: 40vh;
+    }
     #ComingSoon {
-        font-size: large;
+        font-size: 40px;
         letter-spacing: 10px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
     }
     .progress {
         width: 80%;
