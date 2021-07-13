@@ -69,3 +69,9 @@ div {
 .iconify:hover {
     color: rgba(255, 255, 255, 0.596);
 }
+
+@media screen and (max-width: 600px) {
+    #ComingSoon {
+        font-size: large;
+    }
+}
