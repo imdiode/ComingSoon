@@ -1,66 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-body{
-  background-image: url("collegebgImg.jpg"); 
-  background-size: cover;
-  width: 100%;
-  min-height: 70vh;
-  padding: 0 0;
-  margin: 0 0;
-  text-align: center;
+body {
+    background: no-repeat url("collegebgImg.jpg");
+    background-size: stretch;
+    width: 100%;
+    min-height: 70vh;
+    padding: 0 0;
+    margin: 0 0;
+    text-align: center;
 }
 
-#ComingSoon{
-  font-size: 52px;
-  color: #fff;
-  letter-spacing: 48px;
-  font-family: 'Noto Sans JP', sans-serif;
-  margin-top: 14%;
-  margin-left: 5%;
-  width: 90%;
-  height: 50%;
-  border-radius: 15px
+#ComingSoon {
+    font-size: 52px;
+    color: #fff;
+    letter-spacing: 48px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 14%;
+    margin-left: 5%;
+    width: 90%;
+    height: 50%;
+    border-radius: 15px
 }
 
 .progress {
-  background: rgba(255,255,255,0.1);
-  justify-content: flex-start;
-  border-radius: 100px;
-  align-items: center;
-  position: relative;
-  padding: 0 5px;
-  display: flex;
-  height: 12px;
-  width: 500px;
-  border: #fff 2px solid;
-  padding: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 12px;
+    width: 500px;
+    border: #fff 2px solid;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 80px;
 }
 
 .progress-value {
-  animation: load 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
-  border-radius: 100px;
-  background: #fff;
-  height: 12px;
-  width: 0;
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 12px;
+    width: 0;
 }
 
 @keyframes load {
-  0% { width: 0; }
-  100% { width: 68%; }
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 68%;
+    }
 }
 
-div{
-  height: 200px;
+div {
+    height: 200px;
 }
 
-.iconify{
-  font-size: 48px;
-  color: #fff;
-  padding: 0 12px;
+.iconify {
+    font-size: 48px;
+    color: #fff;
+    padding: 0 12px;
 }
-.iconify:hover{
-  color: rgba(255, 255, 255, 0.596);
+
+.iconify:hover {
+    color: rgba(255, 255, 255, 0.596);
 }
