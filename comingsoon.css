@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 body {
-    background: no-repeat url("collegebgImg.jpg");
+    background: no-repeat url("1638902.jpg");
     background-size: stretch;
     width: 100%;
     min-height: 70vh;
@@ -9,16 +9,29 @@ body {
     text-align: center;
 }
 
+.logo {
+    position: absolute;
+    width: 20%;
+    top: 7vh;
+    left: 3%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #ComingSoon {
-    font-size: 52px;
+    font-size: 3.25rem;
     color: #fff;
-    letter-spacing: 48px;
+    letter-spacing: 3rem;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 14%;
-    margin-left: 5%;
-    width: 90%;
-    height: 50%;
-    border-radius: 15px
 }
 
 .progress {
@@ -35,7 +48,6 @@ body {
     padding: 1px;
     margin-left: auto;
     margin-right: auto;
-    bottom: 80px;
 }
 
 .progress-value {
@@ -70,12 +82,11 @@ div {
     color: rgba(255, 255, 255, 0.596);
 }
 
-@media screen and (max-width: 600px) {
-    .top {
-        height: 40vh;
+@media (max-width: 600px) {
+    body {
+        background-size:cover;
     }
     #ComingSoon {
-        font-size: 40px;
         letter-spacing: 10px;
         text-align: center;
         width: 100%;
